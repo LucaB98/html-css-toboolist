@@ -19,11 +19,21 @@ h1{
     font-size: 3.5rem;
 }
 
+h2{
+    display: inline;
+}
+
+.triangle{
+    font-size: x-small;
+    
+}
+
 /*Utils*/
 .container{
     max-width: 600px;
     margin: 20px auto;
     background-color: white;
+    border-radius: 10px
 }
 
 /*header*/
@@ -35,10 +45,10 @@ h1{
 
 /*main*/
 
-.areaButton{
-    height: 70px;
-    padding: 10px 10px;
-    line-height: 50px;
+.box{
+    padding: 10px;
+    border-bottom: 2px solid beige;
+
 }
 
 .task{
@@ -53,3 +63,7 @@ h1{
     border-radius: 5px;
 }
     
+li{
+    list-style-type: none;
+    font-size: 25px;
+}
