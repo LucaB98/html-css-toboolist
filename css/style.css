@@ -11,7 +11,7 @@
 /*Generic*/
 
 body{
-    background-color: beige;
+    background-color: rgb(230, 230, 230);
 }
 
 h1{
@@ -22,6 +22,10 @@ h1{
 
 .triangle{
     font-size: x-small;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
     
 }
 
@@ -44,7 +48,7 @@ h1{
 
 .box{
     padding: 10px;
-    border-bottom: 2px solid beige;
+    border-bottom: 2px solid rgb(230, 230, 230);
 
 }
 
@@ -87,3 +91,91 @@ ul{
     text-align: center
 }
 
+.cross{
+    color: red;
+    border-radius: 10px;
+    border: solid 1px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center
+}
+
+
+.editorial{
+    background-color: #059bff;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+li{
+    padding: 10px;
+}
+
+.Q1-goals{
+    background-color: #9653ee;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+}
+
+.recruiting{
+    background-color: #05ffde;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+}
+
+.mobile{
+    background-color: #ffa805;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+}
+
+.website{
+    background-color: #ff05ea;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sales{
+    background-color: #34fa34;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+}
