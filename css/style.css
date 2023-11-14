@@ -18,8 +18,38 @@ h1{
     display: inline;
     font-size: 3.5rem;
 }
-/*Utils*/
 
-.white-bkg{
+/*Utils*/
+.container{
+    max-width: 600px;
+    margin: 20px auto;
     background-color: white;
 }
+
+/*header*/
+.logotitle{
+    background-color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+/*main*/
+
+.areaButton{
+    height: 70px;
+    padding: 10px 10px;
+    line-height: 50px;
+}
+
+.task{
+    background-color: #0082d8;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+.section{
+    padding: 7px;
+    border-radius: 5px;
+}
+    
