@@ -1,7 +1,25 @@
+
 /*css reset*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Generic*/
+
+body{
+    background-color: beige;
+}
+
+h1{
+    display: inline;
+    font-size: 3.5rem;
+}
+/*Utils*/
+
+.white-bkg{
+    background-color: white;
 }
