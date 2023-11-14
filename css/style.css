@@ -29,6 +29,14 @@ h1{
     
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
+
 /*Utils*/
 .container{
     max-width: 600px;
@@ -36,6 +44,34 @@ h1{
     background-color: white;
     border-radius: 10px
 }
+
+.sectionbutton{
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.check{
+    color: rgb(8, 194, 8);
+    border-radius: 10px;
+    border: solid 1px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center
+}
+
+.cross{
+    color: red;
+    border-radius: 10px;
+    border: solid 1px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center
+}
+
 
 /*header*/
 .logotitle{
@@ -63,14 +99,6 @@ padding: 10px;
     color: white;
 }
 
-.sectionbutton{
-    padding: 7px;
-    border-radius: 5px;
-}
-    
-ul{
-    list-style-type: none;
-}
 
 .titlelist{
     display: inline;
@@ -80,28 +108,7 @@ ul{
     padding: 30px 10px;
 }
 
-.check{
-    color: rgb(8, 194, 8);
-    border-radius: 10px;
-    border: solid 1px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center
-}
-
-.cross{
-    color: red;
-    border-radius: 10px;
-    border: solid 1px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center
-}
-
+/*etichette*/
 
 .editorial{
     background-color: #059bff;
@@ -116,9 +123,6 @@ ul{
 }
 
 
-li{
-    padding: 10px;
-}
 
 .Q1-goals{
     background-color: #9653ee;
